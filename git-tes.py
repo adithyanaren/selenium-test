@@ -16,5 +16,5 @@ time.sleep(3)
 driver.find_element_by_name("btnK").send_keys(Keys.ENTER)
 time.sleep(3)
 #close the browser
-driver.open()
+driver.close()
 print("sample test case successfully completed")
